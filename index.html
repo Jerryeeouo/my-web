@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
-    <title>我的個人備審網站</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人備審資料 | 你的名字</title>
+    <style>
+        /* 快速複習：CSS 用來控制外觀 */
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #2c3e50;
+            color: white;
+            border-radius: 10px;
+        }
+        section {
+            background: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            color: #2980b9;
+        }
+        .tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #01579b;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>我的備審資料</h1>
-    <p>我是楊杰叡，這是我製作的網頁。</p>
-    <img src="my-photo.jpg" alt="我的大頭照">
+
+    <header>
+        <h1>你的名字 (Your Name)</h1>
+        <p>應徵/申請系所：XX大學 XX學系</p>
+    </header>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>這裡寫一段簡單的自我介紹。雖然學過網頁但忘得差不多了，不過重拾程式碼的過程讓我發現自己對解決問題很有熱忱...</p>
+        <span class="tag">程式開發</span>
+        <span class="tag">團隊合作</span>
+        <span class="tag">創意設計</span>
+    </section>
+
+    <section id="experience">
+        <h2>學習歷程 / 經歷</h2>
+        <ul>
+            <li><strong>2024 - 2026：</strong> 某某高中 學生會幹部</li>
+            <li><strong>2025：</strong> 全國某某競賽 特優</li>
+            <li><strong>技能：</strong> HTML, CSS, 基本 JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="project">
+        <h2>專案作品</h2>
+        <p>這張網頁就是我使用 GitHub Pages 親手架設的作品之一！</p>
+    </section>
+
+    <footer style="text-align: center; margin-top: 50px; color: #888;">
+        <p>&copy; 2026 你的名字 製作</p>
+    </footer>
+
 </body>
 </html>
