@@ -8,7 +8,7 @@ body { margin: 0; background-color: #f4f7f6; font-family: "Microsoft JhengHei"; 
     background: white;
 }
 
-/* 針對你那張圖特殊的圓角遮罩 */
+/* 華僑圖片 */
 .right-image img {
     width: 400px;
     height: 300px;
@@ -17,7 +17,7 @@ body { margin: 0; background-color: #f4f7f6; font-family: "Microsoft JhengHei"; 
     box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
 }
 
-/* 垂直文字 */
+/* NOCSH */
 .vertical-text {
     font-size: 5rem;
     color: #e0e0e0;
