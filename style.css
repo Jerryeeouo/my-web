@@ -1,12 +1,17 @@
-body { margin: 0; background-color: #F0EDE5; font-family: "Microsoft JhengHei"; }
+  /* 主體配置 */
+body { 
+margin: 0; 
+background-color: #F0EDE5; 
+font-family: "Microsoft JhengHei"; 
+}
 
 .top-nav-bar {
     width: 100%;
-    height: 80px; 
+    height: 50px; 
     background-color: #ffffff;
     
     /* x,y,模糊度(顏色) */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
     
     /* 固定在最頂端 */
     position: fixed;
@@ -18,10 +23,43 @@ body { margin: 0; background-color: #F0EDE5; font-family: "Microsoft JhengHei"; 
     display: flex;
     align-items: center;
     padding: 0 40px; /* 文字距離左右邊框的距離 */
+}
+
+/* 這是標題區的設定 */
+.name {
+    /* 絕對定位 */
+    position: absolute; 
+    top: 120px;  /* 距離網頁上方 */
+    left: 60px;  /* 距離網頁左邊 */
     
-.logo {
-    font-size: 20px;
+    /* 文字垂直 */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    
+    font-family: "Noto Sans TC";
+    font-size: 150px;
     font-weight: 700;
-    color: #555; 
-    letter-spacing: 1px;/* 間距 */
+    color: #515151;
+}
+
+.title {
+    /* 絕對定位 */
+    position: absolute; 
+    top: 130px;  /* 距離網頁上方 */
+    left: 250px;  /* 距離網頁左邊 */
+    
+    /* 文字垂直 */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    
+    font-family: "Noto Sans TC";
+    font-size: 80px;
+    font-weight: 700;
+    color: #C1BEB4;
+}
+
+.title-box {
+    width: 100%;
+    height: 700px; 
+    background-color: #ffffff;
 }
