@@ -100,3 +100,16 @@ img {
     background-color: #ffffff;
     box-shadow: inset 0 2px 15px rgba(0, 0, 0, 0.4); 
 }
+
+.photo-container {
+  width: 500px; /* 依照你的設計調整寬度 */
+  height: 300px;
+  overflow: hidden; /* 這會讓圖片超出圓角的部分被切掉 */
+  border-radius: 0 80px 0 80px;/* 順序為：左上 右上 右下 左下 */
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 讓圖片自動填滿且不會變形 */
+}
