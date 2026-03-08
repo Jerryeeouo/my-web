@@ -109,6 +109,7 @@ img {
   height: 750px;
   overflow: hidden; /* 超出圓角的部分被切掉 */
   border-radius: 0 370px 0 370px;/* 順序為：左上 右上 右下 左下 */
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.3); 
 }
 
 .photo-container img {
