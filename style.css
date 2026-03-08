@@ -19,27 +19,9 @@ body { margin: 0; background-color: #F0EDE5; font-family: "Microsoft JhengHei"; 
     align-items: center;
     padding: 0 40px; /* 文字距離左右邊框的距離 */
     
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 100px 5%;
-    background: white;
-}
-
-/* 華僑圖片 */
-.right-image img {
-    width: 400px;
-    height: 300px;
-    border-radius: 0px 100px 0px 100px; 
-    object-fit: cover;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
-}
-
-/* NOCSH */
-.school-text {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 5rem;
-    color: #e0e0e0;
-    font-weight: black;
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #555; 
+    letter-spacing: 1px;/* 間距 */
 }
