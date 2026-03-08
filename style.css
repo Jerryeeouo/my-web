@@ -5,13 +5,20 @@ background-color: #F0EDE5;
 font-family: "Microsoft JhengHei"; 
 }
 
+/* 圖片設定 */
+img {
+    max-width: 100%; /* 圖片最大寬度不超過父層容器 */
+    height: auto;    /* 高度自動調整，避免變形 */
+    display: block;  /* 移除圖片下方預設的微小縫隙 */
+}
+
 .top-nav-bar {
     width: 100%;
     height: 50px; 
     background-color: #ffffff;
     
     /* x,y,模糊度(顏色) */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); 
     
     /* 固定在最頂端 */
     position: fixed;
@@ -26,11 +33,11 @@ font-family: "Microsoft JhengHei";
 }
 
 /* 這是標題區的設定 */
-.name {
+.name-text {
     /* 絕對定位 */
     position: absolute; 
-    top: 120px;  /* 距離網頁上方 */
-    left: 60px;  /* 距離網頁左邊 */
+    top: 70px;  /* 距離網頁上方 */
+    left: 30px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
@@ -38,28 +45,45 @@ font-family: "Microsoft JhengHei";
     
     font-family: "Noto Sans TC";
     font-size: 150px;
-    font-weight: 700;
+    font-weight: 750;
     color: #515151;
 }
 
-.title {
+.title-text {
     /* 絕對定位 */
     position: absolute; 
-    top: 130px;  /* 距離網頁上方 */
-    left: 250px;  /* 距離網頁左邊 */
+    top: 80px;  /* 距離網頁上方 */
+    left: 210px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
     text-orientation: upright;
     
     font-family: "Noto Sans TC";
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     color: #C1BEB4;
+}
+
+.school2-text {
+    /* 絕對定位 */
+    position: absolute; 
+    top: 42px;  /* 距離網頁上方 */
+    right: 8px;  /* 距離網頁左邊 */
+    
+    /* 文字垂直 */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    
+    font-family: "Noto Sans TC";
+    font-size: 130px;
+    font-weight: 900;
+    color: #F0EDE5;
 }
 
 .title-box {
     width: 100%;
     height: 700px; 
     background-color: #ffffff;
+    box-shadow: inset 0 2px 15px rgba(0, 0, 0, 0.4); 
 }
