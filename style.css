@@ -70,7 +70,7 @@ img {
     /* 絕對定位 */
     position: absolute; 
     top: 600px;  /* 距離網頁上方 */
-    right: 170px;  /* 距離網頁左邊 */
+    right: 180px;  /* 距離網頁左邊 */
     
     font-family: "Noto Sans TC";
     font-size: 150px;
@@ -108,7 +108,7 @@ img {
   width: 1100px; 
   height: 750px;
   overflow: hidden; /* 超出圓角的部分被切掉 */
-  border-radius: 0 370px 0 370px;/* 順序為：左上 右上 右下 左下 */
+  border-radius: 0 350px 0 350px;/* 順序為：左上 右上 右下 左下 */
   box-shadow: 2px 0 15px rgba(0, 0, 0, 0.3); 
 }
 
