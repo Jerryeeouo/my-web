@@ -102,10 +102,13 @@ img {
 }
 
 .photo-container {
-  width: 500px; /* 依照你的設計調整寬度 */
-  height: 300px;
-  overflow: hidden; /* 這會讓圖片超出圓角的部分被切掉 */
-  border-radius: 0 80px 0 80px;/* 順序為：左上 右上 右下 左下 */
+  position: absolute; 
+    top: 50px;  
+    right: 100px; 
+  width: 800px; 
+  height: 500px;
+  overflow: hidden; /* 超出圓角的部分被切掉 */
+  border-radius: 0 120px 0 120px;/* 順序為：左上 右上 右下 左下 */
 }
 
 .photo-container img {
