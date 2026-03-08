@@ -1,5 +1,24 @@
 body { margin: 0; background-color: #f4f7f6; font-family: "Microsoft JhengHei"; }
 
+.top-nav-bar {
+    width: 100%;
+    height: 80px; 
+    background-color: #ffffff;
+    
+    /* x,y,模糊度(顏色) */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
+    
+    /* 固定在最頂端 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+    /* 排版 */
+    display: flex;
+    align-items: center;
+    padding: 0 40px; /* 文字距離左右邊框的距離 */
+    
 .hero {
     display: flex;
     align-items: center;
