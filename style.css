@@ -104,11 +104,11 @@ img {
 .photo-container {
   position: absolute; 
     top: 50px;  
-    right: 100px; 
-  width: 800px; 
-  height: 500px;
+    right: 150px; 
+  width: 1100px; 
+  height: 900px;
   overflow: hidden; /* 超出圓角的部分被切掉 */
-  border-radius: 0 120px 0 120px;/* 順序為：左上 右上 右下 左下 */
+  border-radius: 0 50% 0 50%;/* 順序為：左上 右上 右下 左下 */
 }
 
 .photo-container img {
