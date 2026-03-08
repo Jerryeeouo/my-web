@@ -44,8 +44,9 @@ img {
     text-orientation: upright;
     
     font-family: "Noto Sans TC";
+    letter-spacing: 20px;
     font-size: 150px;
-    font-weight: 750;
+    font-weight: 800;
     color: #515151;
 }
 
@@ -61,8 +62,20 @@ img {
     
     font-family: "Noto Sans TC";
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 750;
     color: #C1BEB4;
+}
+
+.school-text {
+    /* 絕對定位 */
+    position: absolute; 
+    top: 600px;  /* 距離網頁上方 */
+    right: 170px;  /* 距離網頁左邊 */
+    
+    font-family: "Noto Sans TC";
+    font-size: 130px;
+    font-weight: 900;
+    color: #FFFFFF;
 }
 
 .school2-text {
@@ -76,14 +89,14 @@ img {
     text-orientation: upright;
     
     font-family: "Noto Sans TC";
-    font-size: 130px;
+    font-size: 150px;
     font-weight: 900;
     color: #F0EDE5;
 }
 
 .title-box {
     width: 100%;
-    height: 700px; 
+    height: 800px; 
     background-color: #ffffff;
     box-shadow: inset 0 2px 15px rgba(0, 0, 0, 0.4); 
 }
