@@ -123,6 +123,20 @@ img {
   align-items: center;
   width: 100%;
   height: 200px;
-  
+}
+
+.intorduction_text1 {
+  font-family: "Noto Sans TC";
+  font-size: 48px;
+  font-weight: 900;
+  color: #515151;
+
+}
+
+.intorduction_text1 {
+  font-family: "Noto Sans TC";
+  font-size: 32px;
+  font-weight: 900;
+  color: #515151;
 
 }
