@@ -34,7 +34,7 @@ img {
 /* 這是標題區的設定 */
 .name-text {
     /* 絕對定位 */
-    position: relative; 
+    position: absolute; 
     top: 100px;  /* 距離網頁上方 */
     left: 30px;  /* 距離網頁左邊 */
     
@@ -51,7 +51,7 @@ img {
 
 .title-text {
     /* 絕對定位 */
-    position: relative; 
+    position: absolute; 
     top: 110px;  /* 距離網頁上方 */
     left: 210px;  /* 距離網頁左邊 */
     
@@ -67,7 +67,7 @@ img {
 
 .school-text {
     /* 絕對定位 */
-    position: relative; 
+    position: absolute; 
     top: 670px;  /* 距離網頁上方 */
     right: 210px;  /* 距離網頁左邊 */
     
@@ -79,7 +79,7 @@ img {
 
 .school2-text {
     /* 絕對定位 */
-    position: relative; 
+    position: absolute; 
     top: 72px;  /* 距離網頁上方 */
     right: 8px;  /* 距離網頁左邊 */
     
@@ -101,7 +101,7 @@ img {
 }
 
 .photo-container {
-  position: relative; 
+  position: absolute; 
     top: 80px;  
     right: 200px; 
   width: 1200px; 
