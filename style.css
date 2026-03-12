@@ -119,9 +119,10 @@ img {
 }
 
 .intorduction-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;/* 文字模式 */
+  flex-direction: column;/* 換行 */
+  justify-content: center;/* 垂直至中 */
+  align-items: center;/* 水平至中 */
   width: 100%;
   height: 200px;
 }
