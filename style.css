@@ -127,14 +127,14 @@ img {
   height: 200px;
 }
 
-.intorduction_text1 {
+h1.intorduction_text1 {
   font-family: "Noto Sans TC";
   font-size: 48px;
   font-weight: 900;
   color: #515151;
 }
 
-.intorduction_text2 {
+h1.intorduction_text2 {
   font-family: "Noto Sans TC";
   font-size: 32px;
   font-weight: 900;
