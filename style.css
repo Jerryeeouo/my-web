@@ -14,7 +14,7 @@ img {
 
 .top-nav-bar {
     width: 100%;
-    height: 50px; 
+    height: 80px; 
     background-color: #ffffff;
     
     /* x,y,模糊度(顏色) */
@@ -36,7 +36,7 @@ img {
 .name-text {
     /* 絕對定位 */
     position: absolute; 
-    top: 70px;  /* 距離網頁上方 */
+    top: 100px;  /* 距離網頁上方 */
     left: 30px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
@@ -53,7 +53,7 @@ img {
 .title-text {
     /* 絕對定位 */
     position: absolute; 
-    top: 80px;  /* 距離網頁上方 */
+    top: 110px;  /* 距離網頁上方 */
     left: 210px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
@@ -69,7 +69,7 @@ img {
 .school-text {
     /* 絕對定位 */
     position: absolute; 
-    top: 600px;  /* 距離網頁上方 */
+    top: 670px;  /* 距離網頁上方 */
     right: 210px;  /* 距離網頁左邊 */
     
     font-family: "Noto Sans TC";
@@ -81,7 +81,7 @@ img {
 .school2-text {
     /* 絕對定位 */
     position: absolute; 
-    top: 42px;  /* 距離網頁上方 */
+    top: 72px;  /* 距離網頁上方 */
     right: 8px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
@@ -96,14 +96,14 @@ img {
 
 .title-box {
     width: 100%;
-    height: 800px; 
+    height: 880px; 
     background-color: #ffffff;
     box-shadow: inset 0 2px 15px rgba(0, 0, 0, 0.4); 
 }
 
 .photo-container {
   position: absolute; 
-    top: 50px;  
+    top: 80px;  
     right: 200px; 
   width: 1200px; 
   height: 750px;
