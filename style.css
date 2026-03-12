@@ -118,7 +118,7 @@ img {
   object-fit: cover; /* 讓圖片自動填滿且不會變形 */
 }
 
-.intorduction-box {
+.introduction-box {
   display: flex;/* 文字模式 */
   flex-direction: column;/* 換行 */
   justify-content: center;/* 垂直至中 */
@@ -127,14 +127,14 @@ img {
   height: 200px;
 }
 
-h1.intorduction_text1 {
+h1.introduction_text1 {
   font-family: "Noto Sans TC";
-  font-size: 80px;
+  font-size: 48px;
   font-weight: 900;
   color: #515151;
 }
 
-h1.intorduction_text2 {
+h1.introduction_text2 {
   font-family: "Noto Sans TC";
   font-size: 32px;
   font-weight: 900;
