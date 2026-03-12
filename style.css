@@ -53,7 +53,7 @@ img {
     /* 絕對定位 */
     position: absolute; 
     top: 110px;  /* 距離網頁上方 */
-    left: 210px;  /* 距離網頁左邊 */
+    left: 220px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
@@ -61,7 +61,7 @@ img {
     
     font-family: "Noto Sans TC";
     font-size: 60px;
-    font-weight: 750;
+    font-weight: 900;
     color: #C1BEB4;
 }
 
