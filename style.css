@@ -36,7 +36,7 @@ img {
     /* 絕對定位 */
     position: absolute; 
     top: 100px;  /* 距離網頁上方 */
-    left: 30px;  /* 距離網頁左邊 */
+    left: 10px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
