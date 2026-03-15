@@ -11,7 +11,7 @@ body {
 /* 圖片設定 */
 img {
   max-width: 100%; /* 圖片最大寬度不超過父層容器 */
-  height: auto;    /* 高度自動調整，避免變形 */
+  height: auto;    /* 高度自動調整 */
   display: block;  /* 移除圖片下方預設的微小縫隙 */
 }
 
