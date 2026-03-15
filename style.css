@@ -33,7 +33,7 @@ img {
 
 /* 這是標題區的設定 */
 .name-text {
-    position: absolute
+    position: absolute;
       top: 100px;  /* 距離網頁上方 */
       left: 30px;  /* 距離網頁左邊 */
     
@@ -49,7 +49,7 @@ img {
 }
 
 .title-text {
-    position: absolute
+    position: absolute;
       top: 110px;  /* 距離網頁上方 */
       left: 220px;  /* 距離網頁左邊 */
     
@@ -64,7 +64,7 @@ img {
 }
 
 .school-text { 
-    position: absolute
+    position: absolute;
       top: 630px;  /* 距離網頁上方 */
       right: 210px;  /* 距離網頁左邊 */
     
@@ -75,7 +75,7 @@ img {
 }
 
 .school2-text {
-    position: absolute
+    position: absolute;
       top: 72px;  /* 距離網頁上方 */
       right: 8px;  /* 距離網頁左邊 */
     
@@ -98,7 +98,7 @@ img {
 }
 
 .photo-container {
-  position: absolute
+  position: absolute;
     top: 80px;  
     right: 200px; 
   width: 1200px; 
@@ -141,9 +141,11 @@ h2.introduction_text2 {
 }
 
 .about-box{
-  position: relative;
-    width: 100%;
-    height: 400px; 
-    background-color: #ffffff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 400px; 
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); 
 }
