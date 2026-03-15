@@ -152,9 +152,11 @@ img {
   height: 400px; 
   background-color: #ffffff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); 
-  padding: 10px 200px;
 }
 
+.about-title-box{
+  width: 60%;
+}
 .about-text-box{
   marin-top: 30px;
   width: 60%;
