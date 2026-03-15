@@ -127,7 +127,7 @@ img {
   margin-top: 50px;
 }
 
-.h1 {
+h1 {
   font-family: "Noto Sans TC";
   font-size: 48px;
   font-weight: 900;
@@ -135,7 +135,7 @@ img {
   margin: 0
 }
 
-.h2 {
+h2 {
   font-family: "Noto Sans TC";
   font-size: 32px;
   font-weight: 750;
