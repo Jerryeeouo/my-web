@@ -127,8 +127,7 @@ h3 {
 .photo-container {
   position: absolute;
     top: 80px;  
-    right: 30%; 
-    left: 10%;
+    right: 200px; 
   width: 60%; 
   height: 750px;
   overflow: hidden; /* 超出圓角的部分被切掉 */
