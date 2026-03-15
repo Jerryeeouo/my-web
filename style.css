@@ -128,7 +128,7 @@ h3 {
   position: absolute;
     top: 80px;  
     right: 200px; 
-  width: 60%; 
+  width: 1200px; 
   height: 750px;
   overflow: hidden; /* 超出圓角的部分被切掉 */
   border-radius: 0 350px 0 350px;/* 順序為：左上 右上 右下 左下 */
