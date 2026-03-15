@@ -175,6 +175,14 @@ h3 {
   width: 60%;
 }
 
+.project-title-box{
+  marin-top: 30px;
+  width: 100%
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .scroll-project {
   display: flex;
   overflow-x: auto;/* 超出寬度時顯示橫向捲動條 */
