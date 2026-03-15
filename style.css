@@ -58,7 +58,17 @@ h3 {
     padding: 0 40px; /* 文字距離左右邊框的距離 */
 }
 
-/* 這是標題區的設定 */
+.drop-introduction{
+  display: none; /* 預設隱藏，交給 JS 控制 */
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+}
+
+.show-menu {
+  display: block !important;
+}
+
 .name-text {
     position: absolute;
       top: 100px;  /* 距離網頁上方 */
