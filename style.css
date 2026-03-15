@@ -33,8 +33,9 @@ img {
 
 /* 這是標題區的設定 */
 .name-text {
-    top: 100px;  /* 距離網頁上方 */
-    left: 30px;  /* 距離網頁左邊 */
+    position: absolute
+      top: 100px;  /* 距離網頁上方 */
+      left: 30px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
@@ -48,8 +49,9 @@ img {
 }
 
 .title-text {
-    top: 110px;  /* 距離網頁上方 */
-    left: 220px;  /* 距離網頁左邊 */
+    position: absolute
+      top: 110px;  /* 距離網頁上方 */
+      left: 220px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
@@ -62,8 +64,9 @@ img {
 }
 
 .school-text { 
-    top: 630px;  /* 距離網頁上方 */
-    right: 210px;  /* 距離網頁左邊 */
+    position: absolute
+      top: 630px;  /* 距離網頁上方 */
+      right: 210px;  /* 距離網頁左邊 */
     
     font-family: "Noto Sans TC";
     font-size: 150px;
@@ -72,8 +75,9 @@ img {
 }
 
 .school2-text {
-    top: 72px;  /* 距離網頁上方 */
-    right: 8px;  /* 距離網頁左邊 */
+    position: absolute
+      top: 72px;  /* 距離網頁上方 */
+      right: 8px;  /* 距離網頁左邊 */
     
     /* 文字垂直 */
     writing-mode: vertical-rl;
@@ -86,7 +90,6 @@ img {
 }
 
 .title-box {
-  display: flex;
     position: relative;
     width: 100%;
     height: 830px; 
@@ -95,6 +98,7 @@ img {
 }
 
 .photo-container {
+  position: absolute
     top: 80px;  
     right: 200px; 
   width: 1200px; 
