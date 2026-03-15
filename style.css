@@ -33,8 +33,7 @@ img {
 
 /* 這是標題區的設定 */
 .name-text {
-    /* 絕對定位 */
-    position: absolute; 
+  display: flex;
     top: 100px;  /* 距離網頁上方 */
     left: 30px;  /* 距離網頁左邊 */
     
@@ -50,8 +49,7 @@ img {
 }
 
 .title-text {
-    /* 絕對定位 */
-    position: absolute; 
+  display: flex;
     top: 110px;  /* 距離網頁上方 */
     left: 220px;  /* 距離網頁左邊 */
     
@@ -65,9 +63,8 @@ img {
     color: #C1BEB4;
 }
 
-.school-text {
-    /* 絕對定位 */
-    position: absolute; 
+.school-text { 
+  display: flex;
     top: 630px;  /* 距離網頁上方 */
     right: 210px;  /* 距離網頁左邊 */
     
@@ -78,8 +75,7 @@ img {
 }
 
 .school2-text {
-    /* 絕對定位 */
-    position: absolute; 
+  display: flex;
     top: 72px;  /* 距離網頁上方 */
     right: 8px;  /* 距離網頁左邊 */
     
@@ -102,7 +98,7 @@ img {
 }
 
 .photo-container {
-  position: absolute; 
+  display: flex;
     top: 80px;  
     right: 200px; 
   width: 1200px; 
