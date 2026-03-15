@@ -127,7 +127,7 @@ img {
   margin-top: 50px;
 }
 
-h1.introduction_text1 {
+.h1 {
   font-family: "Noto Sans TC";
   font-size: 48px;
   font-weight: 900;
@@ -135,15 +135,16 @@ h1.introduction_text1 {
   margin: 0
 }
 
-h2.introduction_text2 {
+.h2 {
   font-family: "Noto Sans TC";
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 750;
   color: #515151;
   margin: 0
 }
 
 .about-box{
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
