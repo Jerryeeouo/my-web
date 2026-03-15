@@ -1,4 +1,7 @@
-  /* 主體配置 */
+html {
+  scroll-behavior: smooth;
+}
+/* 主體配置 */
 body { 
 margin: 0; 
 background-color: #F0EDE5; 
