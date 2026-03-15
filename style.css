@@ -15,6 +15,30 @@ img {
     display: block;  /* 移除圖片下方預設的微小縫隙 */
 }
 
+h1 {
+  font-family: "Noto Sans TC";
+  font-size: 48px;
+  font-weight: 900;
+  color: #515151;
+  margin: 0
+}
+
+h2 {
+  font-family: "Noto Sans TC";
+  font-size: 32px;
+  font-weight: 650;
+  color: #515151;
+  margin: 0
+}
+
+h3 {
+  font-family: "Noto Sans TC";
+  font-size: 20px;
+  font-weight: 400;
+  color: #515151;
+  margin: 0
+}
+  
 .top-nav-bar {
     width: 100%;
     height: 80px; 
@@ -125,22 +149,6 @@ img {
   width: 100%;
   height: 150px;
   margin-top: 50px;
-}
-
-h1 {
-  font-family: "Noto Sans TC";
-  font-size: 48px;
-  font-weight: 900;
-  color: #515151;
-  margin: 0
-}
-
-h2 {
-  font-family: "Noto Sans TC";
-  font-size: 32px;
-  font-weight: 750;
-  color: #515151;
-  margin: 0
 }
 
 .about-box{
