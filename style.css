@@ -3,16 +3,16 @@ html {
 }
 /* 主體配置 */
 body { 
-margin: 0; 
-background-color: #F0EDE5; 
-font-family: "Microsoft JhengHei"; 
+  margin: 0; 
+  background-color: #F0EDE5; 
+  font-family: "Microsoft JhengHei"; 
 }
 
 /* 圖片設定 */
 img {
-    max-width: 100%; /* 圖片最大寬度不超過父層容器 */
-    height: auto;    /* 高度自動調整，避免變形 */
-    display: block;  /* 移除圖片下方預設的微小縫隙 */
+  max-width: 100%; /* 圖片最大寬度不超過父層容器 */
+  height: auto;    /* 高度自動調整，避免變形 */
+  display: block;  /* 移除圖片下方預設的微小縫隙 */
 }
 
 h1 {
@@ -128,7 +128,7 @@ h3 {
   position: absolute;
     top: 80px;  
     right: 200px; 
-  width: 1200px; 
+  width: 60%; 
   height: 750px;
   overflow: hidden; /* 超出圓角的部分被切掉 */
   border-radius: 0 350px 0 350px;/* 順序為：左上 右上 右下 左下 */
