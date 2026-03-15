@@ -155,10 +155,15 @@ h2 {
 }
 
 .about-title-box{
+  margin-left: auto;  /* 自動補齊左邊間距 */
+  margin-right: auto; /* 自動補齊右邊間距 */
   width: 60%;
   margin: 0
 }
+
 .about-text-box{
+  margin-left: auto;
+  margin-right: auto; 
   marin-top: 30px;
   width: 60%;
 }
