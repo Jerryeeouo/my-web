@@ -185,5 +185,8 @@ h3 {
 
 .project-photo {
   flex: 0 0 auto;/* 圖不會被擠壓 */
+  height:400px;
   width: 300px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); 
 }
