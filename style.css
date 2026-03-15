@@ -152,6 +152,6 @@ h2.introduction_text2 {
 }
 
 .about-text-box{
-  text-align: right;
+  marin-top: 30px
   width: fit-content;
 }
